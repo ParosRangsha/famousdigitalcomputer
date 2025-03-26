@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react'
 let studentApi = createContext()
 const Students = ({children}) => {
-  let [studentinfo, setstduentinfo] = useState([
+  let studentinfo = [
     { idno:'1001',
       name:'Rachak Dio',
       fathername: 'Boitrish Marak', 
@@ -19,9 +19,14 @@ const Students = ({children}) => {
       eduboard: 'Mymensingh',
       eduyear: '2015',
       eduroll: '205879',
-      edureg: '111259329'
+      edureg: '111259329',
+      program: 'Office Aplication (BTEB)',
+      session: 'January-June',
+      totalfee: '10000',
+      totalpay: '5000',
+      totaldue: '5000'
     }
-  ])
+  ]
 
 
 

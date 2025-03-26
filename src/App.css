@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    .printArea{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    .printArea * {
+      visibility: visible;
+    }
+    .printArea .printbtn{
+      visibility: hidden !important;
+    }
+    .instituteName{
+      font-size: 20px;
+    }
+  }

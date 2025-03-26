@@ -16,11 +16,11 @@ const Report = () => {
             </div>
             <h1 className='instituteName text-[40px] font-bold text-center'>Famous Digital Computer & Training Academy</h1>
           </div>
-          <div className="address">
+          <div className="address relative">
             <h1 className='text-center'>Saiful Islam Super Market, 1 No. C&B Bazar (High School Road),</h1>
             <h1 className='text-center'>Sreepur, Gazipur-1740, Mobile: 01920-244968</h1>
+            <h2 className='addmissionform text-center text-[40px] font-bold absolute right-[50%] translate-x-[50%] bottom-[-75px]'>Admission Form</h2>
           </div>
-          <h2 className='text-center text-[40px] font-bold'>Admission Form</h2>
           <div className="details">
             <div className="py-[5px]">
               <label htmlFor="stdID" className='pr-[20px]'>ID No.</label>
@@ -32,10 +32,10 @@ const Report = () => {
             </div>
             <div className="py-[5px]">
               <label htmlFor="date" className='pr-[20px]'>Date: </label>
-              <input type="text" id='date' className='border-b-[1px] border-[#f00] border-dotted'/>
+              <input type="date" id='date' className='border-b-[1px] border-[#f00] border-dotted'/>
             </div>
-            <div className="applicantsinfo flex flex-col gap-3 border-[1px] border-[#700] p-[5px]">
-              <h1 className='text-[18px] font-bold w-full border-b-[5px] border-[#222]'>Applicant's Information</h1>
+            <div className="applicantsinfo flex flex-col gap-1 border-[1px] border-[#700] p-[5px]">
+              <h1 className='text-[18px] font-bold w-[33%] border-b-[2px] border-[#000]'>Applicant's Information</h1>
               <div className="w-full flex">
                 <div className="lbl w-[15%]">
                   <label htmlFor="stdName">Name</label>
@@ -175,6 +175,82 @@ const Report = () => {
                 </div>
               </div>
             </div>
+              <div className="flex flex-col gap-1 border-[1px] border-[#700] p-[5px] mt-[5px]">
+                <h1 className='text-[18px] font-bold w-[33%] border-b-[2px] border-[#000]'>Name of Program (Select any One)</h1>
+                <div className="pl-[50px] flex">
+                  <div className="w-1/2">
+                    <div className="oabteb">
+                      <input type="checkbox" id='oabteb' />
+                      <label htmlFor="oabteb" className='pl-[10px]'>Office Application (BTEB)</label>
+                    </div>
+                    <div className="oafdcta">
+                      <input type="checkbox" id='oafdcta' />
+                      <label htmlFor="oafdcta" className='pl-[10px]'>Office Application (FDCTA)</label>
+                    </div>
+                    <div className="spokenenglish">
+                      <input type="checkbox" id='spokenenglish' />
+                      <label htmlFor="spokenenglish" className='pl-[10px]'>Spoken English</label>
+                    </div>
+                    <div className="hardwareandnetwork">
+                      <input type="checkbox" id='hardwareandnetwork' />
+                      <label htmlFor="hardwareandnetwork" className='pl-[10px]'>Hardware and Networking</label>
+                    </div>
+                  </div>
+                  <div className="w-1/2">
+                    <div className="graphicsdesign">
+                      <input type="checkbox" id='graphicsdesign' />
+                      <label htmlFor="graphicsdesign" className='pl-[10px]'>Graphics Design</label>
+                    </div>
+                    <div className="websitedesign">
+                      <input type="checkbox" id='websitedesign' />
+                      <label htmlFor="websitedesign" className='pl-[10px]'>Website Design & Development</label>
+                    </div>
+                    <div className="digitalmarketing">
+                      <input type="checkbox" id='digitalmarketing' />
+                      <label htmlFor="digitalmarketing" className='pl-[10px]'>Digital Marketing</label>
+                    </div>
+                    <div className="mobileservicing">
+                      <input type="checkbox" id='mobileservicing' />
+                      <label htmlFor="mobileservicing" className='pl-[10px]'>Mobile Phone Servicing</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="session flex flex-col gap-1 border-[1px] border-[#700] p-[5px] mt-[5px]">
+                <h1 className='text-[18px] font-bold w-[33%] border-b-[2px] border-[#000]'>Session Preference (Please select any one)</h1>
+                <div className="flex pl-[50px]">
+                  <div className="w-1/3">
+                    <div className="">
+                      <input type="checkbox" id='jantojun' />
+                      <label htmlFor="jantojun" className='pl-[10px]'>January - June</label>
+                    </div>
+                    <div className="">
+                      <input type="checkbox" id='jultodec' />
+                      <label htmlFor="jultodec" className='pl-[10px]'>July - December</label>
+                    </div>
+                  </div>
+                  <div className="w-1/3">
+                    <div className="">
+                      <input type="checkbox" id='specialone' />
+                      <label htmlFor="specialone" className='pl-[10px]'>Special - 01 Month</label>
+                    </div>
+                    <div className="">
+                      <input type="checkbox" id='jantomar' />
+                      <label htmlFor="jantomar" className='pl-[10px]'>January - March</label>
+                    </div>
+                  </div>
+                  <div className="w-1/3">
+                    <div className="">
+                      <input type="checkbox" id='jultosep' />
+                      <label htmlFor="jultosep" className='pl-[10px]'>July - September</label>
+                    </div>
+                    <div className="">
+                      <input type="checkbox" id='octtodec' />
+                      <label htmlFor="octtodec" className='pl-[10px]'>October - December</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </Container>

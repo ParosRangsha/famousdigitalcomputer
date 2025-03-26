@@ -20,4 +20,8 @@
     .instituteName{
       font-size: 20px;
     }
+    .addmissionform{
+      right: 0;
+      transform: translateX(-20px);
+    }
   }

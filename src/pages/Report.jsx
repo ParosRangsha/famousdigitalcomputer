@@ -115,7 +115,7 @@ const Report = () => {
                       <label htmlFor="stdNationality">Nationality</label>
                     </div>
                     <div className="bx w-[60%]">
-                      <input type="text" id='stdNationality' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
+                      <input type="text" value={`${res.nationality}`} id='stdNationality' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
                     </div>
                   </div>
                   <div className="Relagion flex w-1/2">
@@ -123,7 +123,7 @@ const Report = () => {
                       <label htmlFor="stdReligion" className='w-full text-right block'>Religion</label>
                     </div>
                     <div className="bx w-[75%]">
-                      <input type="text" id='stdReligion' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
+                      <input type="text" value={`${res.religion}`} id='stdReligion' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
                     </div>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ const Report = () => {
                     <label htmlFor="stdNIDno">NID No.</label>
                   </div>
                   <div className="bx w-[80%]">
-                    <input type="text" id='stdNIDno' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
+                    <input type="text" value={`${res.nationalid}`} id='stdNIDno' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
                   </div>
                 </div>
                 <div className="w-full flex">
@@ -142,7 +142,7 @@ const Report = () => {
                       <label htmlFor="stdselfno">Self</label>
                     </div>
                     <div className="bx w-[90%]">
-                      <input type="text" id='stdselfno' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
+                      <input type="text" value={`${res.selfmobile}`} id='stdselfno' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
                     </div>
                   </div>
                   <div className="parentNo flex w-[40%]">
@@ -150,7 +150,7 @@ const Report = () => {
                       <label htmlFor="stdparentsno" className='w-full text-right block'>Parents</label>
                     </div>
                     <div className="bx w-[75%]">
-                      <input type="text" id='stdparentsno' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
+                      <input type="text" value={`${res.parentmobile}`} id='stdparentsno' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
                     </div>
                   </div>
                 </div>
@@ -159,21 +159,21 @@ const Report = () => {
                     <label htmlFor="stdEdu">Educational Qualification</label>
                   </div>
                   <div className="bx w-[80%]">
-                    <input type="text" id='stdEdu' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
+                    <input type="text" value={`${res.edustatues}`} id='stdEdu' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
                   </div>
                 </div>
                 <div className="w-full flex">
                   <div className="Exam flex w-1/4">
                     <label htmlFor="Examname">Board</label>
-                    <input type="text" id='Examname' className='border-b-[1px] border-[#f00] border-dotted w-[60%] px-[10px]'/>
+                    <input type="text" value={`${res.eduboard}`} id='Examname' className='border-b-[1px] border-[#f00] border-dotted w-[60%] px-[10px]'/>
                   </div>
                   <div className="ExamYear flex w-1/4">
                     <label htmlFor="Examyear">Exam Year</label>
-                    <input type="text" id='Examyear' className='border-b-[1px] border-[#f00] border-dotted w-[40%] px-[10px]'/>
+                    <input type="text" value={`${res.eduyear}`} id='Examyear' className='border-b-[1px] border-[#f00] border-dotted w-[40%] px-[10px]'/>
                   </div>
                   <div className="ExamRoll flex w-1/4">
                     <label htmlFor="ExamRoll">Roll</label>
-                    <input type="text" id='ExamRoll' className='border-b-[1px] border-[#f00] border-dotted w-[60%] px-[10px]'/>
+                    <input type="text" value={`${res.roll}`} id='ExamRoll' className='border-b-[1px] border-[#f00] border-dotted w-[60%] px-[10px]'/>
                   </div>
                   <div className="ExamReg flex w-1/4">
                     <label htmlFor="ExamReg">Reg. No.</label>

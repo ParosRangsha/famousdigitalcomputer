@@ -173,11 +173,11 @@ const Report = () => {
                   </div>
                   <div className="ExamRoll flex w-1/4">
                     <label htmlFor="ExamRoll">Roll</label>
-                    <input type="text" value={`${res.roll}`} id='ExamRoll' className='border-b-[1px] border-[#f00] border-dotted w-[60%] px-[10px]'/>
+                    <input type="text" value={`${res.eduroll}`} id='ExamRoll' className='border-b-[1px] border-[#f00] border-dotted w-[60%] px-[10px]'/>
                   </div>
                   <div className="ExamReg flex w-1/4">
                     <label htmlFor="ExamReg">Reg. No.</label>
-                    <input type="text" id='ExamReg' className='border-b-[1px] border-[#f00] border-dotted w-[60%] px-[10px]'/>
+                    <input type="text" value={`${res.edureg}`} id='ExamReg' className='border-b-[1px] border-[#f00] border-dotted w-[60%] px-[10px]'/>
                   </div>
                 </div>
               </div>
@@ -185,39 +185,8 @@ const Report = () => {
                 <h1 className='text-[18px] font-bold w-full underline'>Name of Program (Select any One)</h1>
                 <div className="pl-[50px] flex">
                   <div className="w-1/2">
-                    <div className="oabteb">
-                      <input type="checkbox" id='oabteb' />
-                      <label htmlFor="oabteb" className='pl-[10px]'>Office Application (BTEB)</label>
-                    </div>
-                    <div className="oafdcta">
-                      <input type="checkbox" id='oafdcta' />
-                      <label htmlFor="oafdcta" className='pl-[10px]'>Office Application (FDCTA)</label>
-                    </div>
-                    <div className="spokenenglish">
-                      <input type="checkbox" id='spokenenglish' />
-                      <label htmlFor="spokenenglish" className='pl-[10px]'>Spoken English</label>
-                    </div>
-                    <div className="hardwareandnetwork">
-                      <input type="checkbox" id='hardwareandnetwork' />
-                      <label htmlFor="hardwareandnetwork" className='pl-[10px]'>Hardware and Networking</label>
-                    </div>
-                  </div>
-                  <div className="w-1/2">
-                    <div className="graphicsdesign">
-                      <input type="checkbox" id='graphicsdesign' />
-                      <label htmlFor="graphicsdesign" className='pl-[10px]'>Graphics Design</label>
-                    </div>
-                    <div className="websitedesign">
-                      <input type="checkbox" id='websitedesign' />
-                      <label htmlFor="websitedesign" className='pl-[10px]'>Website Design & Development</label>
-                    </div>
-                    <div className="digitalmarketing">
-                      <input type="checkbox" id='digitalmarketing' />
-                      <label htmlFor="digitalmarketing" className='pl-[10px]'>Digital Marketing</label>
-                    </div>
-                    <div className="mobileservicing">
-                      <input type="checkbox" id='mobileservicing' />
-                      <label htmlFor="mobileservicing" className='pl-[10px]'>Mobile Phone Servicing</label>
+                    <div className="result">
+                      <p>{res.program}</p>
                     </div>
                   </div>
                 </div>
@@ -227,32 +196,7 @@ const Report = () => {
                 <div className="flex pl-[50px]">
                   <div className="w-1/3">
                     <div className="">
-                      <input type="checkbox" id='jantojun' />
-                      <label htmlFor="jantojun" className='pl-[10px]'>January - June</label>
-                    </div>
-                    <div className="">
-                      <input type="checkbox" id='jultodec' />
-                      <label htmlFor="jultodec" className='pl-[10px]'>July - December</label>
-                    </div>
-                  </div>
-                  <div className="w-1/3">
-                    <div className="">
-                      <input type="checkbox" id='specialone' />
-                      <label htmlFor="specialone" className='pl-[10px]'>Special - 01 Month</label>
-                    </div>
-                    <div className="">
-                      <input type="checkbox" id='jantomar' />
-                      <label htmlFor="jantomar" className='pl-[10px]'>January - March</label>
-                    </div>
-                  </div>
-                  <div className="w-1/3">
-                    <div className="">
-                      <input type="checkbox" id='jultosep' />
-                      <label htmlFor="jultosep" className='pl-[10px]'>July - September</label>
-                    </div>
-                    <div className="">
-                      <input type="checkbox" id='octtodec' />
-                      <label htmlFor="octtodec" className='pl-[10px]'>October - December</label>
+                      <p>{res.session}</p>
                     </div>
                   </div>
                 </div>
@@ -260,15 +204,15 @@ const Report = () => {
               <div className="payment py-[10px] flex">
                 <div className="w-1/3 flex">
                   <label htmlFor="totalfee">Total Course Fee</label>
-                  <input type="number" id='totalfee' className='pl-[10px] text-right border-b-[1px] border-[#f00] border-dotted w-[75px]'/>
+                  <input type="number" value={`${res.totalfee}`} id='totalfee' className='pl-[10px] text-right border-b-[1px] border-[#f00] border-dotted w-[75px]'/>
                 </div>
                 <div className="w-1/3 flex">
                   <label htmlFor="firstpay">First Pay</label>
-                  <input type="number" id='firstpay' className='pl-[10px] text-right border-b-[1px] border-[#f00] border-dotted w-[75px]'/>
+                  <input type="number" value={`${res.totalpay}`} id='firstpay' className='pl-[10px] text-right border-b-[1px] border-[#f00] border-dotted w-[75px]'/>
                 </div>
                 <div className="w-1/3 flex">
                   <label htmlFor="duefee">Total Course Fee</label>
-                  <input type="number" id='duefee' className='pl-[10px] text-right border-b-[1px] border-[#f00] border-dotted w-[75px]'/>
+                  <input type="number" value={`${res.totaldue}`} id='duefee' className='pl-[10px] text-right border-b-[1px] border-[#f00] border-dotted w-[75px]'/>
                 </div>
               </div>
               <div className="declaration">

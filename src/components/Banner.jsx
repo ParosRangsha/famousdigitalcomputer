@@ -1,1 +1,103 @@
-rafce
+import React from 'react'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import thumbOne from '../photos/class.jpeg'
+import thumbTwo from '../photos/eftar.jpeg'
+import thumbThree from '../photos/headsir.jpeg'
+import thumbFour from '../photos/master.jpeg'
+import thumbFive from '../photos/mimang.jpeg'
+import thumbSix from '../photos/mohila.jpeg'
+import thumbSeven from '../photos/purush.jpeg'
+
+import Mybtn from './Mybtn';
+
+const Banner = () => {
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      };
+  return (
+    <div className="Ban">
+        <Slider {...settings}>
+            <div className='py-[20px]'>
+                <div className="flex">
+                    <div className="txt w-1/2 flex flex-col justify-center items-center">
+                        <h1 className='text-[35px] font-bold w-1/2 text-center'>শিখো আজ, বদলাও আগামীর ভবিষ্যৎ</h1>
+                        <p className='w-3/4 text-justify'>বর্তমান যুগ তথ্যপ্রযুক্তির যুগ, যেখানে কম্পিউটার দক্ষতা ছাড়া এগিয়ে যাওয়া অসম্ভব। আমরা তোমাকে আধুনিক প্রযুক্তির সাথে তাল মিলিয়ে প্রফেশনাল দক্ষতা অর্জনের সুযোগ দিচ্ছি। আমাদের উন্নত মানের কোর্স, অভিজ্ঞ প্রশিক্ষক, ও প্র্যাকটিক্যাল ক্লাস তোমাকে প্রযুক্তির জগতে আত্মবিশ্বাসী করে তুলবে।</p>
+                        <Mybtn ink='/report' cap='Apply Now'/>
+                    </div>
+                    <div className="thumb w-1/2 flex justify-center items-center">
+                        <img src={thumbOne} alt="thumb" className='h-[250px] border-[10px] border-[#f00] rounded-[30px]'/>
+                    </div>
+                </div>
+            </div>
+            <div className='py-[20px]'>
+                <div className="flex">
+                    <div className="txt w-1/2 flex flex-col justify-center items-center">
+                        <h1 className='text-[35px] font-bold w-1/2 text-center'>শিখো আজ, বদলাও আগামীর ভবিষ্যৎ</h1>
+                        <p className='w-3/4 text-justify'>বর্তমান যুগ তথ্যপ্রযুক্তির যুগ, যেখানে কম্পিউটার দক্ষতা ছাড়া এগিয়ে যাওয়া অসম্ভব। আমরা তোমাকে আধুনিক প্রযুক্তির সাথে তাল মিলিয়ে প্রফেশনাল দক্ষতা অর্জনের সুযোগ দিচ্ছি। আমাদের উন্নত মানের কোর্স, অভিজ্ঞ প্রশিক্ষক, ও প্র্যাকটিক্যাল ক্লাস তোমাকে প্রযুক্তির জগতে আত্মবিশ্বাসী করে তুলবে।</p>
+                        <Mybtn ink='/report' cap='Apply Now'/>
+                    </div>
+                    <div className="thumb w-1/2 flex justify-center items-center">
+                        <img src={thumbTwo} alt="thumb" className='h-[250px] border-[10px] border-[#f00] rounded-[30px]'/>
+                    </div>
+                </div>
+            </div>
+            <div className='py-[20px]'>
+                <div className="flex">
+                    <div className="txt w-1/2 flex flex-col justify-center items-center">
+                        <h1 className='text-[35px] font-bold w-1/2 text-center'>শিখো আজ, বদলাও আগামীর ভবিষ্যৎ</h1>
+                        <p className='w-3/4 text-justify'>বর্তমান যুগ তথ্যপ্রযুক্তির যুগ, যেখানে কম্পিউটার দক্ষতা ছাড়া এগিয়ে যাওয়া অসম্ভব। আমরা তোমাকে আধুনিক প্রযুক্তির সাথে তাল মিলিয়ে প্রফেশনাল দক্ষতা অর্জনের সুযোগ দিচ্ছি। আমাদের উন্নত মানের কোর্স, অভিজ্ঞ প্রশিক্ষক, ও প্র্যাকটিক্যাল ক্লাস তোমাকে প্রযুক্তির জগতে আত্মবিশ্বাসী করে তুলবে।</p>
+                        <Mybtn ink='/report' cap='Apply Now'/>
+                    </div>
+                    <div className="thumb w-1/2 flex justify-center items-center">
+                        <img src={thumbThree} alt="thumb" className='h-[250px] border-[10px] border-[#f00] rounded-[30px]'/>
+                    </div>
+                </div>
+            </div>
+            <div className='py-[20px]'>
+                <div className="flex">
+                    <div className="txt w-1/2 flex flex-col justify-center items-center">
+                        <h1 className='text-[35px] font-bold w-1/2 text-center'>শিখো আজ, বদলাও আগামীর ভবিষ্যৎ</h1>
+                        <p className='w-3/4 text-justify'>বর্তমান যুগ তথ্যপ্রযুক্তির যুগ, যেখানে কম্পিউটার দক্ষতা ছাড়া এগিয়ে যাওয়া অসম্ভব। আমরা তোমাকে আধুনিক প্রযুক্তির সাথে তাল মিলিয়ে প্রফেশনাল দক্ষতা অর্জনের সুযোগ দিচ্ছি। আমাদের উন্নত মানের কোর্স, অভিজ্ঞ প্রশিক্ষক, ও প্র্যাকটিক্যাল ক্লাস তোমাকে প্রযুক্তির জগতে আত্মবিশ্বাসী করে তুলবে।</p>
+                        <Mybtn ink='/report' cap='Apply Now'/>
+                    </div>
+                    <div className="thumb w-1/2 flex justify-center items-center">
+                        <img src={thumbFour} alt="thumb" className='h-[250px] border-[10px] border-[#f00] rounded-[30px]'/>
+                    </div>
+                </div>
+            </div>
+            <div className='py-[20px]'>
+                <div className="flex">
+                    <div className="txt w-1/2 flex flex-col justify-center items-center">
+                        <h1 className='text-[35px] font-bold w-1/2 text-center'>শিখো আজ, বদলাও আগামীর ভবিষ্যৎ</h1>
+                        <p className='w-3/4 text-justify'>বর্তমান যুগ তথ্যপ্রযুক্তির যুগ, যেখানে কম্পিউটার দক্ষতা ছাড়া এগিয়ে যাওয়া অসম্ভব। আমরা তোমাকে আধুনিক প্রযুক্তির সাথে তাল মিলিয়ে প্রফেশনাল দক্ষতা অর্জনের সুযোগ দিচ্ছি। আমাদের উন্নত মানের কোর্স, অভিজ্ঞ প্রশিক্ষক, ও প্র্যাকটিক্যাল ক্লাস তোমাকে প্রযুক্তির জগতে আত্মবিশ্বাসী করে তুলবে।</p>
+                        <Mybtn ink='/report' cap='Apply Now'/>
+                    </div>
+                    <div className="thumb w-1/2 flex justify-center items-center">
+                        <img src={thumbFive} alt="thumb" className='h-[250px] border-[10px] border-[#f00] rounded-[30px]'/>
+                    </div>
+                </div>
+            </div>
+            <div className='py-[20px]'>
+                <div className="flex">
+                    <div className="txt w-1/2 flex flex-col justify-center items-center">
+                        <h1 className='text-[35px] font-bold w-1/2 text-center'>শিখো আজ, বদলাও আগামীর ভবিষ্যৎ</h1>
+                        <p className='w-3/4 text-justify'>বর্তমান যুগ তথ্যপ্রযুক্তির যুগ, যেখানে কম্পিউটার দক্ষতা ছাড়া এগিয়ে যাওয়া অসম্ভব। আমরা তোমাকে আধুনিক প্রযুক্তির সাথে তাল মিলিয়ে প্রফেশনাল দক্ষতা অর্জনের সুযোগ দিচ্ছি। আমাদের উন্নত মানের কোর্স, অভিজ্ঞ প্রশিক্ষক, ও প্র্যাকটিক্যাল ক্লাস তোমাকে প্রযুক্তির জগতে আত্মবিশ্বাসী করে তুলবে।</p>
+                        <Mybtn ink='/report' cap='Apply Now'/>
+                    </div>
+                    <div className="thumb w-1/2 flex justify-center items-center">
+                        <img src={thumbSix} alt="thumb" className='h-[250px] border-[10px] border-[#f00] rounded-[30px]'/>
+                    </div>
+                </div>
+            </div>
+        </Slider>
+    </div>
+  )
+}
+
+export default Banner

@@ -8,11 +8,13 @@ import { Link } from 'react-router-dom'
 const Header = () => {
     let [myMenu, setmyMenu] = useState(['Home', 'Post', 'Report', 'About', 'Contact'])
   return (
-    <div className="header bg-[#955] sticky top-0 left-0 w-full z-[998]">
+    <div className="headermain bg-[#955] sticky top-0 left-0 w-full z-[998]">
         <Container>
             <div className="flex items-center py-[10px]">
                 <div className="logo w-[20%]">
-                    <img src={logo} alt="logo" className='h-[50px]'/>
+                    <Link to='/'>
+                        <img src={logo} alt="logo" className='h-[50px]'/>
+                    </Link>
                 </div>
                 <div className="menus w-[60%]">
                     <ul className='flex justify-center'>

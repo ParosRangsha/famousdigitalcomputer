@@ -23,7 +23,7 @@ const Banner = () => {
         button: false,
       };
   return (
-    <div className="Ban bg-[#f00]">
+    <div className="Ban bg-[#825743]">
         <Slider {...settings}>
             <div className='py-[20px]'>
                 <div className="flex">

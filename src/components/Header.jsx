@@ -21,7 +21,7 @@ const Header = () => {
                         {
                             myMenu.map((item, z)=>(
                                 <li key={z}>
-                                    <Link to={`/${item}`} className='w-[100px] block text-center px-[10px] text-[18px] py-[15px] hover:bg-[#fff] hover:rounded-[5px] duration-[1s]'>{item}</Link>
+                                    <Link to={`/${item}`} className='w-[100px] block text-center px-[10px] text-[18px] py-[15px] hover:bg-[#fff] hover:rounded-[5px] duration-[1s] text-[#fff] font-bold hover:text-[#000]'>{item}</Link>
                                 </li>
                             ))
                         }

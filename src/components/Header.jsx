@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 
 const Header = () => {
-    let [myMenu, setmyMenu] = useState(['Home', 'Post', 'Report', 'About'])
+    let [myMenu, setmyMenu] = useState(['Home', 'Post', 'Report', 'About', 'Contact'])
   return (
     <div className="header bg-[#955] sticky top-0 left-0 w-full z-[998]">
         <Container>

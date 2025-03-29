@@ -50,7 +50,6 @@ const Report = () => {
             {
               targetStudent.length >0 ?
               targetStudent.map((res)=>(
-
               <div className="">
                 <div className="details">
                   <div className="applicantsinfo flex flex-col gap-1 border-[1px] border-[#700] p-[5px]">
@@ -226,15 +225,15 @@ const Report = () => {
                   <div className="signature flex">
                     <div className="w-1/3 flex flex-col justify-center items-center px-[20px]">
                       <input type="text"  className='border-b-[1px] border-dotted border-[#f00] w-full py-[10px]'/>
-                      <p>(Signature of the Applicant)</p>
+                      <p className='text-center'>(Applicant Signature)</p>
                     </div>
                     <div className="w-1/3 flex flex-col justify-center items-center px-[20px]">
                       <input type="text"  className='border-b-[1px] border-dotted border-[#f00] w-full py-[10px]'/>
-                      <p>(Signature of the Applicant)</p>
+                      <p>(Guardian Signature)</p>
                     </div>
                     <div className="w-1/3 flex flex-col justify-center items-center px-[20px]">
                       <input type="text"  className='border-b-[1px] border-dotted border-[#f00] w-full py-[10px]'/>
-                      <p>(Signature of the Applicant)</p>
+                      <p>(Authorised Signature)</p>
                     </div>
                   </div>
                 </div>
@@ -482,15 +481,15 @@ const Report = () => {
                 <div className="signature flex">
                   <div className="w-1/3 flex flex-col justify-center items-center px-[20px]">
                     <input type="text"  className='border-b-[1px] border-dotted border-[#f00] w-full py-[10px]'/>
-                    <p>(Signature of the Applicant)</p>
+                    <p className='text-center'>(Applicant Signature)</p>
                   </div>
                   <div className="w-1/3 flex flex-col justify-center items-center px-[20px]">
                     <input type="text"  className='border-b-[1px] border-dotted border-[#f00] w-full py-[10px]'/>
-                    <p>(Signature of the Applicant)</p>
+                    <p>(Guardian Signature)</p>
                   </div>
                   <div className="w-1/3 flex flex-col justify-center items-center px-[20px]">
                     <input type="text"  className='border-b-[1px] border-dotted border-[#f00] w-full py-[10px]'/>
-                    <p>(Signature of the Applicant)</p>
+                    <p>(Authorised Signature)</p>
                   </div>
                 </div>
               </div>

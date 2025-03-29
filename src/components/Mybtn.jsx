@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Mybtn = ({ink, cap}) => {
   return (
-    <Link to={ink} className='py-[10px] px-[20px] bg-[#ff0] text-[#22f] block rounded-[5px] hover:bg-[#955] font-bold hover:text-[#0f0]'>{cap}</Link>
+    <Link to={ink} className='block text-center px-[10px] text-[18px] py-[10px] bg-[#fff] text-[#000] hover:text-[#fff] hover:bg-[#955] rounded-[5px] duration-[1s]'>{cap}</Link>
   )
 }
 

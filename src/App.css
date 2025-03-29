@@ -21,8 +21,6 @@
       font-size: 20px;
     }
     .addmissionform{
-      right: 0;
-      transform: translateX(-100px);
       font-size: 30px;
       border-bottom: 2px dashed black;
     }

@@ -28,18 +28,18 @@ const Report = () => {
               <div className="address relative">
                 <h1 className='text-center'>Saiful Islam Super Market, 1 No. C&B Bazar (High School Road),</h1>
                 <h1 className='text-center'>Sreepur, Gazipur-1740, Mobile: 01920-244968</h1>
-                <h2 className='addmissionform text-center text-[40px] font-bold absolute right-[50%] translate-x-[50%] bottom-[-75px]'>Admission Form</h2>
+                <h2 className='addmissionform text-center text-[40px] font-bold absolute left-[50%] translate-x-[-50%] bottom-[-75px]'>Admission Form</h2>
               </div>
             </div>
             <div className="Heading">
               <div className="topinf0">
                 <div className="py-[5px]">
                   <label htmlFor="stdID" className='pr-[20px]'>ID No.</label>
-                  <input type="text" id='stdID' className='border-[1px] border-[#f00]' onChange={handleID}/>
+                  <input type="text" id='stdID' className='border-[1px] border-[#f00] w-[75px]' onChange={handleID}/>
                 </div>
                 <div className="py-[5px]">
                   <label htmlFor="batchtime" className='pr-[20px]'>Batch Time: </label>
-                  <input type="text" id='batchtime' className='border-b-[1px] border-[#f00] border-dotted'/>
+                  <input type="text" id='batchtime' className='border-b-[1px] border-[#f00] border-dotted w-[80px]'/>
                 </div>
                 <div className="py-[5px]">
                   <label htmlFor="date" className='pr-[20px]'>Date: </label>
@@ -96,10 +96,10 @@ const Report = () => {
                     </div>
                     <div className="w-full flex">
                       <div className="w-1/2 flex">
-                        <div className="lbl w-[45%]">
+                        <div className="lbl w-[40%]">
                           <label htmlFor="stdBirthDate">Date of Birth</label>
                         </div>
-                        <div className="bx w-[50%]">
+                        <div className="bx w-[55%]">
                           <input type="text" value={`${res.dateofbirth}`} id='stdBirthDate' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
                         </div>
                       </div>
@@ -123,7 +123,7 @@ const Report = () => {
                       </div>
                       <div className="Relagion flex w-1/2">
                         <div className="lbl w-[25%]">
-                          <label htmlFor="stdReligion" className='w-full text-right block'>Religion</label>
+                          <label htmlFor="stdReligion" className='w-full text-right block'>Religion: </label>
                         </div>
                         <div className="bx w-[75%]">
                           <input type="text" value={`${res.religion}`} id='stdReligion' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
@@ -132,7 +132,7 @@ const Report = () => {
                     </div>
                     <div className="w-full flex">
                       <div className="lbl w-[20%]">
-                        <label htmlFor="stdNIDno">NID No.</label>
+                        <label htmlFor="stdNIDno">NID or Birth No.</label>
                       </div>
                       <div className="bx w-[80%]">
                         <input type="text" value={`${res.nationalid}`} id='stdNIDno' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
@@ -158,10 +158,10 @@ const Report = () => {
                       </div>
                     </div>
                     <div className="w-full flex items-end">
-                      <div className="lbl w-[20%]">
+                      <div className="lbl w-[30%]">
                         <label htmlFor="stdEdu">Educational Qualification</label>
                       </div>
-                      <div className="bx w-[80%]">
+                      <div className="bx w-[60%]">
                         <input type="text" value={`${res.edustatues}`} id='stdEdu' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
                       </div>
                     </div>
@@ -285,10 +285,10 @@ const Report = () => {
                   </div>
                   <div className="w-full flex">
                     <div className="w-1/2 flex">
-                      <div className="lbl w-[45%]">
+                      <div className="lbl w-[40%]">
                         <label htmlFor="stdBirthDate">Date of Birth</label>
                       </div>
-                      <div className="bx w-[50%]">
+                      <div className="bx w-[55%]">
                         <input type="date" id='stdBirthDate' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
                       </div>
                     </div>
@@ -323,7 +323,7 @@ const Report = () => {
                     </div>
                     <div className="Relagion flex w-1/2">
                       <div className="lbl w-[25%]">
-                        <label htmlFor="stdReligion" className='w-full text-right block'>Religion</label>
+                        <label htmlFor="stdReligion" className='w-full text-right block'>Religion: </label>
                       </div>
                       <div className="bx w-[75%]">
                         <input type="text" id='stdReligion' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
@@ -332,7 +332,7 @@ const Report = () => {
                   </div>
                   <div className="w-full flex">
                     <div className="lbl w-[20%]">
-                      <label htmlFor="stdNIDno">NID No.</label>
+                      <label htmlFor="stdNIDno">NID or Birth No.</label>
                     </div>
                     <div className="bx w-[80%]">
                       <input type="text" id='stdNIDno' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
@@ -358,10 +358,10 @@ const Report = () => {
                     </div>
                   </div>
                   <div className="w-full flex items-end">
-                    <div className="lbl w-[20%]">
+                    <div className="lbl w-[30%]">
                       <label htmlFor="stdEdu">Educational Qualification</label>
                     </div>
-                    <div className="bx w-[80%]">
+                    <div className="bx w-[70%]">
                       <input type="text" id='stdEdu' className='border-b-[1px] border-[#f00] border-dotted w-full px-[10px]'/>
                     </div>
                   </div>
@@ -389,37 +389,37 @@ const Report = () => {
                   <div className="pl-[50px] flex">
                     <div className="w-1/2">
                       <div className="oabteb">
-                        <input type="checkbox" id='oabteb' />
+                        <input type="radio" name='program' id='oabteb' />
                         <label htmlFor="oabteb" className='pl-[10px]'>Office Application (BTEB)</label>
                       </div>
                       <div className="oafdcta">
-                        <input type="checkbox" id='oafdcta' />
+                        <input type="radio" name='program' id='oafdcta' />
                         <label htmlFor="oafdcta" className='pl-[10px]'>Office Application (FDCTA)</label>
                       </div>
                       <div className="spokenenglish">
-                        <input type="checkbox" id='spokenenglish' />
+                        <input type="radio" name='program' id='spokenenglish' />
                         <label htmlFor="spokenenglish" className='pl-[10px]'>Spoken English</label>
                       </div>
                       <div className="hardwareandnetwork">
-                        <input type="checkbox" id='hardwareandnetwork' />
+                        <input type="radio" name='program' id='hardwareandnetwork' />
                         <label htmlFor="hardwareandnetwork" className='pl-[10px]'>Hardware and Networking</label>
                       </div>
                     </div>
                     <div className="w-1/2">
                       <div className="graphicsdesign">
-                        <input type="checkbox" id='graphicsdesign' />
+                        <input type="radio" name='program' id='graphicsdesign' />
                         <label htmlFor="graphicsdesign" className='pl-[10px]'>Graphics Design</label>
                       </div>
                       <div className="websitedesign">
-                        <input type="checkbox" id='websitedesign' />
+                        <input type="radio" name='program' id='websitedesign' />
                         <label htmlFor="websitedesign" className='pl-[10px]'>Website Design & Development</label>
                       </div>
                       <div className="digitalmarketing">
-                        <input type="checkbox" id='digitalmarketing' />
+                        <input type="radio" name='program' id='digitalmarketing' />
                         <label htmlFor="digitalmarketing" className='pl-[10px]'>Digital Marketing</label>
                       </div>
                       <div className="mobileservicing">
-                        <input type="checkbox" id='mobileservicing' />
+                        <input type="radio" name='program' id='mobileservicing' />
                         <label htmlFor="mobileservicing" className='pl-[10px]'>Mobile Phone Servicing</label>
                       </div>
                     </div>
@@ -430,31 +430,31 @@ const Report = () => {
                   <div className="flex pl-[50px]">
                     <div className="w-1/3">
                       <div className="">
-                        <input type="checkbox" id='jantojun' />
+                        <input type="radio" name='session' id='jantojun' />
                         <label htmlFor="jantojun" className='pl-[10px]'>January - June</label>
                       </div>
                       <div className="">
-                        <input type="checkbox" id='jultodec' />
+                        <input type="radio" name='session' id='jultodec' />
                         <label htmlFor="jultodec" className='pl-[10px]'>July - December</label>
                       </div>
                     </div>
                     <div className="w-1/3">
                       <div className="">
-                        <input type="checkbox" id='specialone' />
+                        <input type="radio" name='session' id='specialone' />
                         <label htmlFor="specialone" className='pl-[10px]'>Special - 01 Month</label>
                       </div>
                       <div className="">
-                        <input type="checkbox" id='jantomar' />
+                        <input type="radio" name='session' id='jantomar' />
                         <label htmlFor="jantomar" className='pl-[10px]'>January - March</label>
                       </div>
                     </div>
                     <div className="w-1/3">
                       <div className="">
-                        <input type="checkbox" id='jultosep' />
+                        <input type="radio" name='session' id='jultosep' />
                         <label htmlFor="jultosep" className='pl-[10px]'>July - September</label>
                       </div>
                       <div className="">
-                        <input type="checkbox" id='octtodec' />
+                        <input type="radio" name='session' id='octtodec' />
                         <label htmlFor="octtodec" className='pl-[10px]'>October - December</label>
                       </div>
                     </div>

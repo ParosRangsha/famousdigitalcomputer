@@ -73,6 +73,30 @@ const Students = ({children}) => {
       totalfee: '20000',
       totalpay: '1200',
       totaldue: '8000'
+    },
+    { idno:'1004',
+      name:'Jahid Mia',
+      fathername: 'Saiful Mia', 
+      mothername: 'Sharifa Khatun',
+      presentaddress: '1no C&B, Sreepur, Gazipur',
+      permanentaddress: '1no C&B, Sreepur, Gazipur',
+      dateofbirth: '07-Feb-1990',
+      gender: 'Male',
+      nationality: 'Bangladeshi',
+      nationalid: '8916105206',
+      religion: 'Islam',
+      selfmobile: '01700204338',
+      parentmobile: '01709223222',
+      edustatues: 'Diploma',
+      eduboard: 'Dhaka',
+      eduyear: '2008',
+      eduroll: '192025',
+      edureg: '110152011',
+      program: 'Website Design & Development',
+      session: 'October-December',
+      totalfee: '20000',
+      totalpay: '1200',
+      totaldue: '8000'
     }
   ]
 

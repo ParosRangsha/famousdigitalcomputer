@@ -12,8 +12,8 @@ const Courses = () => {
     <div className="bg-[#ddd] py-[50px]">
       <Container>
         <div className="heading flex justify-between items-center bg-[#fff] mb-[5px]">
-          <h1 className='font-bold text-[25px]'>Our Courses</h1>
-          <Link to='/course' className='flex items-center'>Show all <FaLongArrowAltRight/> </Link>
+          <h1 className='font-bold text-[25px] pl-[20px] relative after:absolute after:content-[""] after:h-full after:w-[10px] after:bg-[#f00] after:left-0 after:top-0'>Our Courses</h1>
+          <Link to='/course' className='flex items-center pr-[20px]'>Show all <FaLongArrowAltRight/> </Link>
         </div>
         <div className='flex justify-between'>
           <div className="items w-[24%] p-[30px] bg-[#eee] flex flex-col justify-center items-center rounded-[15px] hover:bg-[#f00] duration-[0.5s] cursor-pointer">

@@ -8,7 +8,6 @@ import thumbThree from '../photos/headsir.jpeg'
 import thumbFour from '../photos/master.jpeg'
 import thumbFive from '../photos/mimang.jpeg'
 import thumbSix from '../photos/mohila.jpeg'
-import thumbSeven from '../photos/purush.jpeg'
 
 import Mybtn from './Mybtn';
 

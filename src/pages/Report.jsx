@@ -15,7 +15,7 @@ const Report = () => {
   return (
     <>
       <MdOutlineLocalPrintshop onClick={()=> window.print()} className='printbtn sticky left-[100%] top-0 z-[999]'/>
-      <div className="printArea p-[5px]">
+      <div className="printArea p-[5px] mb-[20px]">
         <Container>
           <div className="printreport relative border-[1px] border-[#F00] p-[5px]">
             <div className="titleinfo">

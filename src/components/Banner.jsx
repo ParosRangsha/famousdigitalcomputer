@@ -18,7 +18,9 @@ const Banner = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 8000,
       };
   return (
     <div className="Ban">
@@ -38,7 +40,7 @@ const Banner = () => {
             <div className='py-[20px]'>
                 <div className="flex">
                     <div className="txt w-1/2 flex flex-col justify-center items-center">
-                        <h1 className='text-[35px] font-bold w-1/2 text-center'>শিখো আজ, বদলাও আগামীর ভবিষ্যৎ</h1>
+                        <h1 className='text-[35px] font-bold w-1/2 text-center'>প্রযুক্তির জগতে তোমার প্রথম পদক্ষেপ!</h1>
                         <p className='w-3/4 text-justify'>বর্তমান যুগ তথ্যপ্রযুক্তির যুগ, যেখানে কম্পিউটার দক্ষতা ছাড়া এগিয়ে যাওয়া অসম্ভব। আমরা তোমাকে আধুনিক প্রযুক্তির সাথে তাল মিলিয়ে প্রফেশনাল দক্ষতা অর্জনের সুযোগ দিচ্ছি। আমাদের উন্নত মানের কোর্স, অভিজ্ঞ প্রশিক্ষক, ও প্র্যাকটিক্যাল ক্লাস তোমাকে প্রযুক্তির জগতে আত্মবিশ্বাসী করে তুলবে।</p>
                         <Mybtn ink='/report' cap='Apply Now'/>
                     </div>
@@ -50,7 +52,7 @@ const Banner = () => {
             <div className='py-[20px]'>
                 <div className="flex">
                     <div className="txt w-1/2 flex flex-col justify-center items-center">
-                        <h1 className='text-[35px] font-bold w-1/2 text-center'>শিখো আজ, বদলাও আগামীর ভবিষ্যৎ</h1>
+                        <h1 className='text-[35px] font-bold w-1/2 text-center'>কম্পিউটার শিক্ষা, সফল জীবনের সিঁড়ি!</h1>
                         <p className='w-3/4 text-justify'>বর্তমান যুগ তথ্যপ্রযুক্তির যুগ, যেখানে কম্পিউটার দক্ষতা ছাড়া এগিয়ে যাওয়া অসম্ভব। আমরা তোমাকে আধুনিক প্রযুক্তির সাথে তাল মিলিয়ে প্রফেশনাল দক্ষতা অর্জনের সুযোগ দিচ্ছি। আমাদের উন্নত মানের কোর্স, অভিজ্ঞ প্রশিক্ষক, ও প্র্যাকটিক্যাল ক্লাস তোমাকে প্রযুক্তির জগতে আত্মবিশ্বাসী করে তুলবে।</p>
                         <Mybtn ink='/report' cap='Apply Now'/>
                     </div>
@@ -62,7 +64,7 @@ const Banner = () => {
             <div className='py-[20px]'>
                 <div className="flex">
                     <div className="txt w-1/2 flex flex-col justify-center items-center">
-                        <h1 className='text-[35px] font-bold w-1/2 text-center'>শিখো আজ, বদলাও আগামীর ভবিষ্যৎ</h1>
+                        <h1 className='text-[35px] font-bold w-1/2 text-center'>শেখো, দক্ষ হও, এগিয়ে যাও!</h1>
                         <p className='w-3/4 text-justify'>বর্তমান যুগ তথ্যপ্রযুক্তির যুগ, যেখানে কম্পিউটার দক্ষতা ছাড়া এগিয়ে যাওয়া অসম্ভব। আমরা তোমাকে আধুনিক প্রযুক্তির সাথে তাল মিলিয়ে প্রফেশনাল দক্ষতা অর্জনের সুযোগ দিচ্ছি। আমাদের উন্নত মানের কোর্স, অভিজ্ঞ প্রশিক্ষক, ও প্র্যাকটিক্যাল ক্লাস তোমাকে প্রযুক্তির জগতে আত্মবিশ্বাসী করে তুলবে।</p>
                         <Mybtn ink='/report' cap='Apply Now'/>
                     </div>
@@ -74,7 +76,7 @@ const Banner = () => {
             <div className='py-[20px]'>
                 <div className="flex">
                     <div className="txt w-1/2 flex flex-col justify-center items-center">
-                        <h1 className='text-[35px] font-bold w-1/2 text-center'>শিখো আজ, বদলাও আগামীর ভবিষ্যৎ</h1>
+                        <h1 className='text-[35px] font-bold w-1/2 text-center'>ডিজিটাল বিশ্বে দক্ষতার নতুন দিগন্ত!</h1>
                         <p className='w-3/4 text-justify'>বর্তমান যুগ তথ্যপ্রযুক্তির যুগ, যেখানে কম্পিউটার দক্ষতা ছাড়া এগিয়ে যাওয়া অসম্ভব। আমরা তোমাকে আধুনিক প্রযুক্তির সাথে তাল মিলিয়ে প্রফেশনাল দক্ষতা অর্জনের সুযোগ দিচ্ছি। আমাদের উন্নত মানের কোর্স, অভিজ্ঞ প্রশিক্ষক, ও প্র্যাকটিক্যাল ক্লাস তোমাকে প্রযুক্তির জগতে আত্মবিশ্বাসী করে তুলবে।</p>
                         <Mybtn ink='/report' cap='Apply Now'/>
                     </div>
@@ -86,7 +88,7 @@ const Banner = () => {
             <div className='py-[20px]'>
                 <div className="flex">
                     <div className="txt w-1/2 flex flex-col justify-center items-center">
-                        <h1 className='text-[35px] font-bold w-1/2 text-center'>শিখো আজ, বদলাও আগামীর ভবিষ্যৎ</h1>
+                        <h1 className='text-[35px] font-bold w-1/2 text-center'>তোমার স্বপ্ন বাস্তবায়নের সঠিক ঠিকানা!</h1>
                         <p className='w-3/4 text-justify'>বর্তমান যুগ তথ্যপ্রযুক্তির যুগ, যেখানে কম্পিউটার দক্ষতা ছাড়া এগিয়ে যাওয়া অসম্ভব। আমরা তোমাকে আধুনিক প্রযুক্তির সাথে তাল মিলিয়ে প্রফেশনাল দক্ষতা অর্জনের সুযোগ দিচ্ছি। আমাদের উন্নত মানের কোর্স, অভিজ্ঞ প্রশিক্ষক, ও প্র্যাকটিক্যাল ক্লাস তোমাকে প্রযুক্তির জগতে আত্মবিশ্বাসী করে তুলবে।</p>
                         <Mybtn ink='/report' cap='Apply Now'/>
                     </div>

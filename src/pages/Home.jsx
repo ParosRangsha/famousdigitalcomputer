@@ -8,7 +8,10 @@ import Courses from '../components/Courses';
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home relative">
+      <div className="errorpop absolute bg-[#fff]">
+        <h1>Your screen size is not capable for show result.</h1>
+      </div>
       <Banner/>
       <Courses/>
     </div>

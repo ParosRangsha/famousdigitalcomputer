@@ -15,14 +15,15 @@ const Banner = () => {
     var settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 100,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         speed: 8000,
+        button: false,
       };
   return (
-    <div className="Ban">
+    <div className="Ban bg-[#f00]">
         <Slider {...settings}>
             <div className='py-[20px]'>
                 <div className="flex">
@@ -32,7 +33,7 @@ const Banner = () => {
                         <Mybtn ink='/report' cap='Apply Now'/>
                     </div>
                     <div className="thumb w-1/2 flex justify-center items-center">
-                        <img src={thumbOne} alt="thumb" className='h-[250px] border-[10px] border-[#f00] rounded-[30px]'/>
+                        <img src={thumbOne} alt="thumb" className='h-[250px] border-[10px] border-[#fff] rounded-[30px]'/>
                     </div>
                 </div>
             </div>
@@ -44,7 +45,7 @@ const Banner = () => {
                         <Mybtn ink='/report' cap='Apply Now'/>
                     </div>
                     <div className="thumb w-1/2 flex justify-center items-center">
-                        <img src={thumbTwo} alt="thumb" className='h-[250px] border-[10px] border-[#f00] rounded-[30px]'/>
+                        <img src={thumbTwo} alt="thumb" className='h-[250px] border-[10px] border-[#fff] rounded-[30px]'/>
                     </div>
                 </div>
             </div>
@@ -56,7 +57,7 @@ const Banner = () => {
                         <Mybtn ink='/report' cap='Apply Now'/>
                     </div>
                     <div className="thumb w-1/2 flex justify-center items-center">
-                        <img src={thumbThree} alt="thumb" className='h-[250px] border-[10px] border-[#f00] rounded-[30px]'/>
+                        <img src={thumbThree} alt="thumb" className='h-[250px] border-[10px] border-[#fff] rounded-[30px]'/>
                     </div>
                 </div>
             </div>
@@ -68,7 +69,7 @@ const Banner = () => {
                         <Mybtn ink='/report' cap='Apply Now'/>
                     </div>
                     <div className="thumb w-1/2 flex justify-center items-center">
-                        <img src={thumbFour} alt="thumb" className='h-[250px] border-[10px] border-[#f00] rounded-[30px]'/>
+                        <img src={thumbFour} alt="thumb" className='h-[250px] border-[10px] border-[#fff] rounded-[30px]'/>
                     </div>
                 </div>
             </div>
@@ -80,7 +81,7 @@ const Banner = () => {
                         <Mybtn ink='/report' cap='Apply Now'/>
                     </div>
                     <div className="thumb w-1/2 flex justify-center items-center">
-                        <img src={thumbFive} alt="thumb" className='h-[250px] border-[10px] border-[#f00] rounded-[30px]'/>
+                        <img src={thumbFive} alt="thumb" className='h-[250px] border-[10px] border-[#fff] rounded-[30px]'/>
                     </div>
                 </div>
             </div>
@@ -92,7 +93,7 @@ const Banner = () => {
                         <Mybtn ink='/report' cap='Apply Now'/>
                     </div>
                     <div className="thumb w-1/2 flex justify-center items-center">
-                        <img src={thumbSix} alt="thumb" className='h-[250px] border-[10px] border-[#f00] rounded-[30px]'/>
+                        <img src={thumbSix} alt="thumb" className='h-[250px] border-[10px] border-[#fff] rounded-[30px]'/>
                     </div>
                 </div>
             </div>

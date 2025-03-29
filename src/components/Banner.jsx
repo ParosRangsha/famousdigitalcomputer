@@ -8,6 +8,7 @@ import thumbThree from '../photos/headsir.jpeg'
 import thumbFour from '../photos/master.jpeg'
 import thumbFive from '../photos/mimang.jpeg'
 import thumbSix from '../photos/mohila.jpeg'
+import thumbSeven from '../photos/boss.jpg'
 
 import Mybtn from './Mybtn';
 
@@ -25,6 +26,18 @@ const Banner = () => {
   return (
     <div className="Ban bg-[#825743]">
         <Slider {...settings}>
+            <div className='py-[20px]'>
+                <div className="flex">
+                    <div className="txt w-1/2 flex flex-col justify-center items-center">
+                        <h1 className='text-[35px] font-bold w-1/2 text-center'>শিখো আজ, বদলাও আগামীর ভবিষ্যৎ</h1>
+                        <p className='w-3/4 text-justify'>বর্তমান যুগ তথ্যপ্রযুক্তির যুগ, যেখানে কম্পিউটার দক্ষতা ছাড়া এগিয়ে যাওয়া অসম্ভব। আমরা তোমাকে আধুনিক প্রযুক্তির সাথে তাল মিলিয়ে প্রফেশনাল দক্ষতা অর্জনের সুযোগ দিচ্ছি। আমাদের উন্নত মানের কোর্স, অভিজ্ঞ প্রশিক্ষক, ও প্র্যাকটিক্যাল ক্লাস তোমাকে প্রযুক্তির জগতে আত্মবিশ্বাসী করে তুলবে।</p>
+                        <Mybtn ink='/report' cap='Apply Now'/>
+                    </div>
+                    <div className="thumb w-1/2 flex justify-center items-center">
+                        <img src={thumbSeven} alt="thumb" className='h-[250px] border-[10px] border-[#fff] rounded-[30px]'/>
+                    </div>
+                </div>
+            </div>
             <div className='py-[20px]'>
                 <div className="flex">
                     <div className="txt w-1/2 flex flex-col justify-center items-center">
